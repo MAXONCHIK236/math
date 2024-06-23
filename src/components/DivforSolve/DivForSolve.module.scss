@@ -1,0 +1,28 @@
+.solvediv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border: 3px solid rgba(60, 199, 255, 1);
+  border-radius: 8px;
+  background-color: rgba(60, 199, 255, 0.04);
+  input {
+    background: transparent;
+    font-family: "Inter", sans-serif !important;
+    font-size: 24px;
+    font-weight: 600;
+    width: 26px;
+    text-align: center;
+  }
+}
+
+.greenBackground {
+  background: rgba(0, 198, 79, 0.04);
+  border: 3px solid rgba(0, 198, 79, 1);
+}
+
+.redBackground {
+  background: rgba(255, 0, 0, 0.4);
+  border: 3px solid rgba(255, 77, 32, 1);
+}

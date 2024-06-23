@@ -1,0 +1,22 @@
+.div {
+    width: 72px;
+    height: 72px;
+    background: rgba(0, 198, 79, 0.04);
+    border: 3px solid rgba(0, 198, 79, 1);
+    border-radius: 8px;
+    padding: 24px;
+    p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 21px;
+      height: 28px; 
+      font-family: "Inter",sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 32px;
+      text-align: center;
+    }
+  
+  }
+  

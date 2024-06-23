@@ -1,0 +1,132 @@
+.ColumnMultiplication {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 50px;
+  height: auto;
+  border-radius: 40px;
+  background: transparent;
+  .goldBorder {
+    border: 1px solid gold !important;
+  }
+  .solvediv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border: 3px solid rgba(60, 199, 255, 1);
+    border-radius: 8px;
+    background-color: rgba(60, 199, 255, 0.04);
+    input {
+      background: transparent;
+      font-family: "Inter", sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      width: 26px;
+    }
+  }
+
+  .greenBackground {
+    background: rgba(0, 198, 79, 0.04);
+    border: 3px solid rgba(0, 198, 79, 1);
+  }
+
+  .redBackground {
+    background: rgba(255, 0, 0, 0.4);
+    border: 3px solid rgba(255, 77, 32, 1);
+  }
+
+  .main__multiplication {
+    padding-left: 46px;
+  }
+  .ColumnMultiplication__left {
+    padding-left: 100px;
+  }
+  .div__none {
+    display: none;
+  }
+  .hr__solve {
+    width: 276px;
+  }
+  hr {
+    width: 110px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .ColumnMultiplication__top {
+    display: flex;
+    justify-content: start;
+    p {
+      font-family: "Inter", sans-serif;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 36px;
+    }
+
+    .ColumnMultiplication__top_column {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 10px;
+      .ColumnMultiplication__top_flex {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        .div1,
+        .div2,
+        .div3,
+        .div4 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          width: 55px;
+          height: 55px;
+          border: 3px solid rgba(0, 0, 0, 0.12);
+          border-radius: 8px;
+          background-color: rgba(176, 206, 218, 0.04);
+          p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 21px;
+            height: 28px;
+            font-family: "Transforma Script_Trial", cursive !important;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  .main__flex {
+    display: flex;
+    align-items: center;
+  }
+}
+.hint__active {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: start;
+  .hint__default_active {
+    display: flex;
+    padding: 16x !important;
+    gap: 10px;
+    border-radius: 12px;
+    background: rgba(255, 184, 77, 0.6);
+    a {
+      font-family: "Inter", sans-serif !important;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      color: rgba(0, 0, 0, 1);
+      text-align: center;
+    }
+  }
+}

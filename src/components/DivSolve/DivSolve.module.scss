@@ -1,0 +1,28 @@
+.solvediv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  border: 3px solid rgba(60, 199, 255, 1);
+  border-radius: 8px;
+
+  background-color: rgba(60, 199, 255, 0.04);
+  input {
+    background: transparent;
+    font-family: "Transforma Script_Trial",cursive !important;
+    font-size: 24px;
+    font-weight: 500;
+    width: 16px;
+  }
+}
+
+.greenBackground {
+  background: rgba(0, 198, 79, 0.04);
+  border: 3px solid rgba(0, 198, 79, 1);
+}
+
+.redBackground {
+  background: rgba(255, 0, 0, 0.4);
+  border: 3px solid rgba(255, 77, 32, 1);
+}
